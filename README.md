@@ -1,3 +1,91 @@
+# MovieLand
+
+MovieLand is a simple web application that allows users to search for movies using the OMDB API and view their details in an organized manner. Users can enter a movie title in the search bar, and the application will fetch and display a list of matching movies along with their respective details.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## Features
+
+- Search for movies by title
+- Display movie details such as title, release year, poster image, and type (movie, series, episode)
+- Automatic display of default search results on page load
+- Responsive design for seamless usage on various devices
+
+## Getting Started
+
+To run this project locally, follow the instructions below:
+
+### Prerequisites
+
+- Node.js and npm (Node Package Manager) must be installed on your machine. You can download Node.js from the official website: https://nodejs.org/
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+```
+git clone https://github.com/your-username/MovieLand.git
+```
+
+2. Change into the project directory:
+
+```
+cd MovieLand
+```
+
+3. Install the project dependencies:
+
+```
+npm install
+```
+
+4. Obtain an API key from the OMDB API by creating an account at http://www.omdbapi.com/. Once you have your API key, update the `API_URL` constant in `App.js` with your API key:
+
+```javascript
+const API_URL = 'http://www.omdbapi.com?apikey=YOUR_API_KEY';
+```
+
+5. Start the development server:
+
+```
+npm start
+```
+
+6. The application should now be running on `http://localhost:3000/` in your browser.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+## Contributing
+
+Contributions to MovieLand are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request. Please make sure to follow the code style and best practices.
+
+1. Fork the repository on GitHub.
+2. Create a new branch from the `main` branch.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your branch.
+5. Open a pull request to the `main` branch of the original repository, describing your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for checking out MovieLand! We hope you enjoy using it. If you have any questions or need further assistance, please feel free to contact us. Happy movie searching!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
